@@ -23,7 +23,7 @@ const url = data.url
 
 let desc = `
 *──────────────────*
-_*🎧 ＳＯＮＧ ＤＯＷＮＬＯＤＥＲ 🎧*_
+_*🎧 NOVA SONG DOWNLOADER 🎧*_
 *──────────────────*
 
 ┌────────────────
@@ -40,7 +40,7 @@ _*🎧 ＳＯＮＧ ＤＯＷＮＬＯＤＥＲ 🎧*_
 _📤ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ ᴀᴜᴅɪᴏ ꜰɪʟʟ📤_
 *└────────────────*
 
-> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ 🧑🏻‍💻*
+> *© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳 🧑🏻‍💻*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -79,7 +79,7 @@ const url = data.url
 
 let desc = `
 *──────────────────*
-_*🎬 VIDEO ＤＯＷＮＬＯＤＥＲ 🎬*_
+_*🎬 NOVA VIDEO ＤＯＷＮＬＯＤＥＲ 🎬*_
 *──────────────────*
 
 ┌────────────────
@@ -96,7 +96,7 @@ _*🎬 VIDEO ＤＯＷＮＬＯＤＥＲ 🎬*_
 _📤ᴜᴘʟᴏᴅɪɴɢ ʏᴏᴜʀ Video ꜰɪʟʟ📤_
 *└────────────────*
 
-> *ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ 🧑🏻‍💻*
+> *© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳 🧑🏻‍💻*
 `
 
 await conn.sendMessage(from,{image:{url: data.thumbnail},caption:desc},{quoted:mek});
@@ -108,7 +108,7 @@ let downloadUrl = down.dl_url
 
 //________________________________Send-Video_____________________________________________
 
-await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:"*©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ..🧑🏻‍💻*"},{quoted:mek})
+await conn.sendMessage(from,{video: {url:downloadUrl},mimetype:"video/mp4",caption:"*© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳..🧑🏻‍💻*"},{quoted:mek})
 
 
 }catch(e){
