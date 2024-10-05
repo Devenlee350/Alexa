@@ -20,27 +20,27 @@ let desc = `
 │❖ *ᴜᴘᴛɪᴍᴇ :* _${runtime(process.uptime())}_
 │❖ *ʀᴀᴍ ᴜꜱᴀɢᴇ :*  _${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB_
 │❖ *ʜᴏꜱᴛ ɴᴀᴍᴇ :* _${os.hostname()}_
-│❖ *ᴏᴡɴᴇʀ :* _Sadeesha Tharumin_
+│❖ *ᴏᴡɴᴇʀ :* _STRIKERBOY_
 └────────────────
 
 *I'm Alive Now 👸🏻*
 
 ┌────────────────
-│ _*Alexa Official Web Site*_
-│ https://sadiyamin.github.io/|||Test
+│ *_Nova WhatsApp Group_*
+│ https://chat.whatsapp.com/BsM8ZJcqPaIH2gK4OJbJBN
 └────────────────
 ┌────────────────
-│ _*Alexa Github Repo*_
-│ http://github.com/sadiyamin/Alexa 
+│ *_Nova Github Repo_*
+│ http://github.com/Devenlee350/Alexa 
 └────────────────
 ┌────────────────
-│ _*Alexa Public Group*_
-│ https://chat.whatsapp.com/Ci5mDk9zEVF95NcuqEtzl4
+│ *_Nova Public Group_*
+│ https://whatsapp.com/channel/0029VafbajGDuMRoRlel7k1p
 └────────────────
 
-> *©ᴄʀᴇᴀᴛᴇᴅ ʙʏ ꜱᴀᴅᴇᴇꜱʜᴀ ᴄᴏᴅᴇʀ  🧑🏻‍💻*
+> *© pσwєrєd вч 𝚂𝚃𝚁𝙸𝙺𝙴𝚁𝙱𝙾𝚈 𝚆𝙾𝚁𝙻𝙳  🧑🏻‍💻*
 `
-return await conn.sendMessage(from,{image: {url: `https://i.ibb.co/Rgj7Y6Y/20241002-093501.jpg`},caption: desc},{quoted: mek})
+return await conn.sendMessage(from,{image: {url: `https://i.imgur.com/q1x3p8U.jpeg`},caption: desc},{quoted: mek})
 
 }catch(e){
 console.log(e)
